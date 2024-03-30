@@ -1,4 +1,4 @@
-import sys, os, time, requests, random, requests
+import os, requests
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 DISCORD_TOKEN = os.getenv('DISCORD_TOKEN') #TOKENはenvに保存
